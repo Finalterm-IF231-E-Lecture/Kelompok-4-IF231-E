@@ -1,0 +1,99 @@
+.App {
+  margin-top: 5%;
+  text-align: center;
+}
+body {
+  background-color: rgb(143, 219, 219);
+}
+
+header {
+  top: 0;
+  position: fixed;
+  height: 90px;
+  width: 100%;
+  background: linear-gradient(90deg, #060606 0%, #202020 94.79%);
+  color: #fff;
+  font-size: 20px;
+  font-family: calibri;
+  z-index: 100;
+}
+
+header .icon img {
+  height: 50px;
+}
+
+.pilih-avatar {
+  margin: auto;
+  max-width: 400px;
+}
+
+.pilih-avatar .nav-icon {
+  position: absolute;
+  top: 50%;
+}
+
+.pilih-avatar .avatar {
+  transition: all 1 ease;
+}
+
+.pilih-avatar .nav-icon i {
+  -webkit-text-stroke: 4px white;
+  font-size: 70px;
+  cursor: pointer;
+}
+
+section {
+  max-width: 650px;
+  margin: auto;
+  margin-top: 90px;
+  margin-bottom: 70px;
+  text-align: center;
+}
+
+.pilih-avatar .nav-left {
+  left: 0;
+}
+
+.pilih-avatar .nav-right {
+  right: 0;
+}
+
+select {
+  align-items: center;
+}
+
+.btn-start {
+  margin-top: 10px;
+}
+
+.select-prodi {
+  width: 30%;
+}
+
+.input-name {
+  width: 30%;
+}
+
+.makan {
+  width: 30%;
+}
+
+#progres-makan {
+  width: 50%
+}
+
+#progres-tidur {
+  width: 50%;
+}
+
+#progres-main {
+  width: 50%;
+}
+
+.box-progress {
+  width: 100%;
+}
+
+.btn-start {
+  width: 30%;
+}
